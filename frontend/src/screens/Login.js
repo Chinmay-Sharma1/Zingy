@@ -7,7 +7,7 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/auth/loginuser", {
+    const response = await fetch("https://zingyapi.onrender.com/api/auth/loginuser", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: 'POST',
